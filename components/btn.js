@@ -1,10 +1,10 @@
-var React = require('react-native');
+var React = require('react');
 var {
   Animated,
   StyleSheet,
   Text,
   TouchableHighlight,
-} = React
+} = require('react-native')
 
 class Btn extends React.Component {
   setTypeStyle(element) {
