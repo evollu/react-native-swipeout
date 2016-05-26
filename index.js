@@ -1,10 +1,10 @@
-const React = require('react-native');
+const React = require('react');
 const {
   Animated,
   PanResponder,
   StyleSheet,
   View
-} = React
+} = require('react-native')
 
 const Btn = require('./components/btn.js');
 
